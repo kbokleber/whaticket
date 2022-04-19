@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "tarefa-index",
+      "appliesTo": "frontend/src/pages/KBODashboard/index.js",
+      "type": "launch"
+    }
+  ]
+}

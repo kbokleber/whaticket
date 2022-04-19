@@ -81,6 +81,11 @@ const MainListItems = (props) => {
         icon={<DashboardOutlinedIcon />}
       />
       <ListItemLink
+          to="/KBODashboard"
+          primary="Dashboard Tickets"
+          icon={<DashboardOutlinedIcon />}
+      />
+      <ListItemLink
         to="/tickets"
         primary={i18n.t("mainDrawer.listItems.tickets")}
         icon={<WhatsAppIcon />}
