@@ -18,7 +18,7 @@ const messages = {
         },
       },
       login: {
-        title: "Faça o seu login agora",
+        title: "Entre com o seu login",
         form: {
           email: "Insira o e-mail",
           password: "Coloque a sua senha",
