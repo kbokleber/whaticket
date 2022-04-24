@@ -1,6 +1,6 @@
-### INSTALAÇÃO DO WHATICKET VIA WINDOWS
+# INSTALAÇÃO DO WHATICKET VIA WINDOWS
 
-# Instalação do BD
+### Instalação do BD
 
 Instalar o Docker Windows https://docs.docker.com/desktop/windows/install/
 
