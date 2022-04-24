@@ -53,7 +53,9 @@ GRANT ALL PRIVILEGES ON *.* TO 'whaticket'@'172.17.0.1' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
 
 npx sequelize db:migrate
+
 npx sequelize db:seed:all
+
 Start backend:
 
 npm start
@@ -63,10 +65,13 @@ abrir o segundo terminal, vai para a pasta frontend e crie o arquivo .env:
 
 nano .env
 REACT_APP_BACKEND_URL = http://localhost:8080/ # Your previous configured backend app URL.
+
 Start frontend app:
 
 npm install
+
 npm run build
+
 npm start
 
 ==============================================================
