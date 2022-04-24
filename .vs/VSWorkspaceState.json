@@ -1,7 +1,15 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\backend\\src",
+    "\\backend\\src\\database",
+    "\\backend\\src\\database\\seeds",
+    "\\backend\\src\\utils",
+    "\\frontend",
+    "\\frontend\\src",
+    "\\frontend\\src\\errors",
+    "\\frontend\\src\\translate"
   ],
-  "SelectedNode": "\\C:\\Users\\kleber.oliveira\\Source\\Repos\\whaticket",
+  "SelectedNode": "\\frontend\\src\\pages",
   "PreviewInSolutionExplorer": false
 }

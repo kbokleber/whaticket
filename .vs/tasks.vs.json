@@ -5,6 +5,11 @@
       "taskLabel": "tarefa-index",
       "appliesTo": "frontend/src/pages/KBODashboard/index.js",
       "type": "launch"
+    },
+    {
+      "taskLabel": "tarefa-20200904070004-create-default-users",
+      "appliesTo": "backend/src/database/seeds/20200904070004-create-default-users.ts",
+      "type": "launch"
     }
   ]
 }

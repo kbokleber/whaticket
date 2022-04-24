@@ -1,0 +1,12 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "nodeDbg",
+      "name": "20200904070004-create-default-users.ts",
+      "project": "backend\\src\\database\\seeds\\20200904070004-create-default-users.ts",
+      "projectTarget": ""
+    }
+  ]
+}
