@@ -8,36 +8,6 @@ docker run --name whaticketdb -e MYSQL_ROOT_PASSWORD=strongpassword -e MYSQL_DAT
 
 git clone https://github.com/kbokleber/whaticket.git whaticket
 
-Dentro da pasta criar o arquivo .env :
-
-cp .env.example .env
-nano .env
-Fill .env file with environment variables:
-
-NODE_ENV=DEVELOPMENT      #it helps on debugging
-
-BACKEND_URL=http://localhost
-
-FRONTEND_URL=https://localhost:3000
-
-PROXY_PORT=8080
-
-PORT=8080
-
-DB_HOST=localhost
-
-DB_DIALECT=mysql
-
-DB_USER=whaticket
-
-DB_PASS=strongpassword
-
-DB_NAME=whaticket
-
-JWT_SECRET=3123123213123
-
-JWT_REFRESH_SECRET=75756756756
-
 ### ENTRE NO DIRETÓRIO DO BACKEND:
 
 npm install
@@ -60,16 +30,11 @@ npx sequelize db:migrate
 
 npx sequelize db:seed:all
 
+npm start
 
-###ENTRE NO DIRETÓRIO DO FRONTEND
+### ENTRE NO DIRETÓRIO DO FRONTEND
 
-abrir o segundo terminal, vai para a pasta frontend e crie o arquivo .env:
-
-
-nano .env
-REACT_APP_BACKEND_URL = http://localhost:8080/ # Your previous configured backend app URL.
-
-Start frontend app:
+abrir o segundo terminal, e entre no diretório frontend:
 
 npm install
 
