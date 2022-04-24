@@ -1,6 +1,8 @@
-### INSTALAÇÃO DO WHATICKET
+### INSTALAÇÃO DO WHATICKET VIA WINDOWS
 
 #instalação do BD
+
+Instalar o Docker Windows https://docs.docker.com/desktop/windows/install/
 
 docker run --name whaticketdb -e MYSQL_ROOT_PASSWORD=strongpassword -e MYSQL_DATABASE=whaticket -e MYSQL_USER=whaticket -e MYSQL_PASSWORD=whaticket --restart always -p 3306:3306 -d mariadb:latest --character-set-server=utf8mb4 --collation-server=utf8mb4_bin
 
