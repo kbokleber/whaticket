@@ -18,7 +18,7 @@ FRONTEND_URL=https://localhost:3000
 PROXY_PORT=8080
 PORT=8080
 
-DB_HOST=localhost              
+DB_HOST=localhost
 DB_DIALECT=mysql
 DB_USER=whaticket
 DB_PASS=strongpassword
