@@ -6,8 +6,8 @@ module.exports = {
       "Users",
       [
         {
-          name: "PyPress",
-          email: "admin@pypress.com.br",
+          name: "Admin",
+          email: "admin@kbosolucoes.online",
           passwordHash: "$2a$08$WaEmpmFDD/XkDqorkpQ42eUZozOqRCPkPcTkmHHMyuTGUOkI8dHsq",
           profile: "admin",
           tokenVersion: 0,
