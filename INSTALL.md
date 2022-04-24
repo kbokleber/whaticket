@@ -15,18 +15,27 @@ nano .env
 Fill .env file with environment variables:
 
 NODE_ENV=DEVELOPMENT      #it helps on debugging
+
 BACKEND_URL=http://localhost
+
 FRONTEND_URL=https://localhost:3000
+
 PROXY_PORT=8080
+
 PORT=8080
 
 DB_HOST=localhost
+
 DB_DIALECT=mysql
+
 DB_USER=whaticket
+
 DB_PASS=strongpassword
+
 DB_NAME=whaticket
 
 JWT_SECRET=3123123213123
+
 JWT_REFRESH_SECRET=75756756756
 
 ### ENTRE NO DIRETÓRIO DO BACKEND:
