@@ -1,6 +1,7 @@
 ### INSTALAÇÃO DO WHATICKET
 
 #instalação do BD
+
 docker run --name whaticketdb -e MYSQL_ROOT_PASSWORD=strongpassword -e MYSQL_DATABASE=whaticket -e MYSQL_USER=whaticket -e MYSQL_PASSWORD=whaticket --restart always -p 3306:3306 -d mariadb:latest --character-set-server=utf8mb4 --collation-server=utf8mb4_bin
 
 git clone https://github.com/kbokleber/whaticket.git whaticket
@@ -52,7 +53,6 @@ abrir o segundo terminal, vai para a pasta frontend e crie o arquivo .env:
 nano .env
 REACT_APP_BACKEND_URL = http://localhost:8080/ # Your previous configured backend app URL.
 Start frontend app:
-
 
 npm install
 npm run build
