@@ -1,5 +1,9 @@
 # INSTALAÇÃO DO WHATICKET VIA WINDOWS
 
+### Instalação do Node para Windows
+
+https://nodejs.org/en/download/
+
 ### Instalação do BD
 
 Instalar o Docker Windows https://docs.docker.com/desktop/windows/install/
