@@ -41,8 +41,10 @@ JWT_REFRESH_SECRET=75756756756
 ### ENTRE NO DIRETÓRIO DO BACKEND:
 
 npm install
+
 npm run build
 
+### PRIVILÉGIOS AO USUARIO DO BANCO
 
 docker exec -it whaticketdb mysql -uroot -p
 	
@@ -52,16 +54,17 @@ GRANT ALL PRIVILEGES ON *.* TO 'whaticket'@'172.17.0.1' WITH GRANT OPTION;
 
 FLUSH PRIVILEGES;
 
+### COMANDOS PARA MIGRAR A ESTRUTURA DO BANCO DE DADOS
+
 npx sequelize db:migrate
 
 npx sequelize db:seed:all
 
-Start backend:
-
-npm start
-abrir o segundo terminal, vai para a pasta frontend e crie o arquivo .env:
 
 ###ENTRE NO DIRETÓRIO DO FRONTEND
+
+abrir o segundo terminal, vai para a pasta frontend e crie o arquivo .env:
+
 
 nano .env
 REACT_APP_BACKEND_URL = http://localhost:8080/ # Your previous configured backend app URL.
