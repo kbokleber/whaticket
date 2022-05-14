@@ -4,6 +4,10 @@
 
 https://nodejs.org/en/download/
 
+### Instalação do Git
+
+https://git-scm.com/downloads
+
 ### Instalação do BD
 
 Instalar o Docker Windows https://docs.docker.com/desktop/windows/install/
